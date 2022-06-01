@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <title>Mega Project</title>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">IIT Gandhinagar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="index.html">Home</a>
+            </li>
+           
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="updates.html"
+                >Updates</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="About.html"
+                >About</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Application
+              </a>
+              <ul class="dropdown-menu bg-secondary" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item " href="apply.html">Apply now</a></li>
+                <li><button type="button" class="btn dropdown-item" data-bs-toggle="modal" data-bs-target="#eligibilityModal" >Eligibility</button></li>
+                <li><button type="button" class="btn dropdown-item" data-bs-toggle="modal" data-bs-target="#selectionModal">Procedure</button></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <button type="button" class="btn dropdown-item" data-bs-toggle="modal" data-bs-target="#needhelpModal">Need Help?</button>
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Eligibility Criteria  -->
+    <div class="modal fade bg-secondary" id="eligibilityModal" tabindex="-1" aria-labelledby="signlogModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="signlogModalLabel">Eligibility Criteria</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+          <ul>
+            <li><h5>Criteria:1</h5><p>Sign up to get an account Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias laudantium adipisci exercitationem autem. Blanditiis corrupti repellendus obcaecati temporibus ad. Officia porro quo incidunt tempora dolores ipsum corrupti inventore cumque perferendis, accusantium consectetur sunt eveniet dolorem maxime rem expedita id quibusdam accusamus magni laboriosam, repudiandae harum, qui dolore velit! Blanditiis nam illo iure dolore delectus possimus magnam maxime aut perferendis porro esse, eos, impedit id fuga cumque! Aliquam ut quis officia maiores quo enim alias deleniti nulla rerum nihil dolores explicabo fugiat non, nobis, placeat doloremque quae libero magnam, deserunt asperiores architecto! Nostrum facere facilis praesentium. Ab incidunt nam, ad distinctio perferendis excepturi iure tempora voluptates atque, quasi blanditiis fugiat perspiciatis nisi, possimus aperiam necessitatibus alias repellendus asperiores corporis animi corrupti dignissimos? Cupiditate odit totam vel dignissimos earum consequatur, rem a, explicabo consequuntur quam itaque laborum repellendus quisquam quibusdam! Voluptates voluptatibus exercitationem aliquam molestias praesentium beatae minima dolor explicabo error harum tenetur, non qui est quas assumenda. Velit voluptatibus possimus facilis eos quas. Numquam vero minima necessitatibus tenetur adipisci consequatur placeat omnis quis culpa quos dicta illo aliquam, fugiat velit similique et, laboriosam fugit distinctio rem ducimus reprehenderit. Alias aliquid ducimus esse inventore libero, maxime officia porro provident dignissimos praesentium neque.</p></li>
+            <li><h5>Criteria:2</h5><p>Click on lon in button below Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae accusantium dolor vitae dolore ab illo temporibus quasi aliquam tempore, consequuntur porro ipsa cupiditate tempora, dolores et incidunt cumque odit sit ipsum! Placeat optio enim sunt iste? Distinctio fuga optio quo similique quam fugit, accusamus harum ratione. Minus amet eos porro, sequi quisquam aspernatur ratione molestiae maxime laborum reiciendis quod officiis repellat possimus sed commodi odit reprehenderit unde enim maiores perferendis ullam? Neque amet voluptas ea nam excepturi quo, incidunt molestiae, praesentium mollitia magnam in, modi doloribus placeat nostrum. A ex, eius illo mollitia et distinctio aliquid dignissimos recusandae facilis ab?</p></li>
+          </ul>
+          </div>
+          <div class="modal-footer mx-4">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Selection Procedure-->
+    <div class="modal fade" id="selectionModal" tabindex="-1" aria-labelledby="signlogModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="signlogModalLabel">Selection Procedure</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+          
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum adipisci hic explicabo impedit veniam, quia similique voluptatem officia placeat. Nostrum sint cumque reprehenderit fuga eius, saepe veniam ab, reiciendis sit error ad quis. Illo, sapiente iure expedita deleniti quasi placeat necessitatibus, ipsum distinctio pariatur sequi tempora voluptates consectetur ullam repudiandae nulla a. Quia ut accusamus molestias aut necessitatibus earum nostrum sequi, illum assumenda dignissimos ipsam amet sint nam quos! Ad eius quas consequatur maiores dolores officiis necessitatibus? Laboriosam, voluptatum eaque esse corporis obcaecati repellendus eos. Laboriosam delectus cumque dolore quisquam veritatis iure obcaecati, nisi ipsa sint doloremque numquam illo nihil eum in deleniti fugiat explicabo nam incidunt. Eligendi natus dolor magni iusto eum sed maiores incidunt nihil, ipsum veniam minus dolorum ab quia aut, exercitationem quis necessitatibus alias repellendus earum voluptatum! Ipsam error aliquid impedit alias consequatur laborum recusandae, eveniet nulla rem perspiciatis? Atque officia architecto incidunt culpa laboriosam quod porro molestiae harum, recusandae alias ipsa, deleniti dolor repellendus unde sed exercitationem explicabo veritatis facere sint, suscipit nobis. Ullam repudiandae maiores ex eligendi perferendis mollitia, quaerat distinctio animi officiis accusantium quo vitae, aspernatur fugiat saepe asperiores expedita, rem sit nulla commodi illo. Fugiat vitae recusandae harum quisquam, quaerat laboriosam quasi.</p>
+          </div>
+          <div class="modal-footer mx-4">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Need help? -->
+    <div class="modal fade" id="needhelpModal" tabindex="-1" aria-labelledby="signlogModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="signlogModalLabel">Need help?</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+          <ul>
+            <li><h5>Tip 1</h5><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quis fuga repellat sapiente ipsam architecto. Repellendus, mollitia recusandae consectetur omnis assumenda itaque distinctio rerum repellat optio alias voluptatum ipsam cumque. Ut, fugit unde magnam a libero doloribus assumenda. Sunt asperiores sed id tempora illo et, veritatis aliquam dicta adipisci consectetur? Libero hic eaque est suscipit non, quia nesciunt itaque natus nemo, beatae porro, molestias at dolorum recusandae culpa commodi voluptatem laborum similique autem. Non officiis optio deserunt ab odit cum mollitia repellendus odio id? Aperiam amet voluptates accusamus dolorum fugit porro optio hic, omnis animi consequuntur dolore nemo perspiciatis tempora. Sign up to get an account</p></li>
+            <li><h5>tip 2</h5><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate earum fugit ipsam neque, quam consectetur quis dicta non quia, aliquam rerum eaque! Sapiente, voluptatum esse. Nisi eius perferendis ex possimus repellat officiis obcaecati, soluta nulla natus sint id error ea placeat quod dolores dolorum quos itaque magnam qui, corrupti enim quo? Quibusdam quia, modi iure ut est placeat perspiciatis aperiam quod deleniti doloribus sequi amet inventore. Ipsa enim voluptatibus omnis provident dolore, ullam soluta illo aliquid iste cupiditate aut assumenda quibusdam qui beatae dolorum ducimus a rerum. Explicabo exercitationem voluptates ad, quas, voluptas provident perferendis ducimus ullam, et iste facilis. Click on lon in button below</p></li>
+          </ul>
+          </div>
+          <div class="modal-footer mx-4">Was this article useful? <input type="checkbox">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+ <br>
+
+<div class=" container mx-4">
+<h2>About</h2>
+<p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum libero illo id quisquam, neque, incidunt provident, voluptate itaque fugiat reiciendis eveniet dolore eius culpa pariatur? Modi unde fugit a quos architecto voluptates vero ullam magnam autem, incidunt labore eum repellat officiis sapiente maxime perspiciatis nam porro cumque eligendi. Cumque inventore mollitia nihil modi adipisci? Exercitationem iste corporis numquam commodi dignissimos perferendis, quas asperiores nobis impedit reiciendis explicabo cum? Mollitia, saepe tempora quia ducimus nemo officia dolores eveniet similique laboriosam labore error soluta expedita, debitis adipisci non odio a vero aspernatur perspiciatis. Laboriosam aliquid, facilis laborum, possimus nam incidunt, sit voluptas beatae totam dicta recusandae at delectus magnam quis? Consequatur esse inventore magni sequi incidunt tempora sunt eligendi nisi doloribus quaerat earum repellat, quam beatae quos quasi suscipit! Magni, modi. Assumenda consectetur rerum fugit temporibus velit ex harum cum aliquam quasi at qui labore corrupti, voluptatem mollitia aut? Libero culpa reiciendis cum, odit officia itaque nulla laboriosam odio deserunt nobis error, asperiores sequi quae mollitia, nisi fugit nam? Eos est fugiat magni debitis dolor dolore facilis, quae officiis fuga cumque pariatur laboriosam asperiores, sit voluptatibus! Fugit quis voluptate consectetur vero. Autem quaerat soluta eius, distinctio placeat quam nobis porro quasi neque blanditiis molestias nemo, dolores repudiandae quo laborum earum in maiores dignissimos. Autem eos a cumque blanditiis nobis quo veritatis reiciendis debitis voluptatibus adipisci sed ad iste amet officiis, error laboriosam officia dolore libero exercitationem. Explicabo aperiam obcaecati placeat distinctio nobis facilis, beatae natus, aut delectus pariatur similique voluptates impedit veritatis.</p>
+
+<h2>Establishment</h2>
+<p style="text-align: justify;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore delectus deleniti recusandae impedit totam natus. Assumenda illo qui ad aut saepe minima corrupti. Quaerat repellendus, ea adipisci excepturi ut nisi vero corrupti pariatur? Impedit dolorem excepturi quas veritatis nihil eum. Hic fugiat tenetur maxime quaerat beatae nemo dolore, dolores totam deserunt sed obcaecati earum ducimus quae recusandae asperiores doloremque, distinctio magnam incidunt assumenda itaque? Perspiciatis veniam labore et voluptas minima animi inventore aperiam eligendi porro doloremque, illo ipsam! Accusantium cumque, laudantium quis exercitationem, quaerat ad, perspiciatis praesentium excepturi itaque accusamus quas aut odit non tenetur consequatur qui. Hic repellendus perspiciatis obcaecati cupiditate consequuntur sunt nobis veniam magnam. Veritatis perspiciatis nam perferendis pariatur? Nesciunt illum hic animi. Deserunt tempora quibusdam ad dolores qui quo id a libero maxime reiciendis modi consectetur non nemo, laboriosam laborum aperiam, cumque iusto repellendus ex repudiandae et sit. Maiores numquam ipsam necessitatibus debitis sit beatae, nam exercitationem aspernatur cum molestiae, mollitia expedita id quis eaque! Quis libero error dolore molestiae enim, illo, voluptatibus non quam aut minus facilis accusamus sequi. Mollitia sint ab culpa tenetur quaerat alias saepe impedit? Sed nesciunt eum, illo autem nobis adipisci? Facilis repellendus rem maxime sequi voluptatum necessitatibus quidem porro quisquam.</p>
+
+<h2 style="text-align: justify;">How we grown</h2>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea voluptas deserunt maxime velit iste, eos sit doloribus illum, dolorum eius quae, eveniet praesentium dignissimos hic culpa. Dolor veniam commodi dignissimos, magnam eveniet, ad molestiae quidem incidunt maxime, eos distinctio qui consectetur harum ea voluptatum ab doloremque natus est rerum cupiditate animi sapiente consequuntur aperiam porro? Veritatis omnis, minus deleniti consectetur eos nostrum at iusto rerum. Cum commodi error ipsa non nulla corporis ut praesentium ex! Placeat ab dicta quibusdam harum recusandae id. Omnis, ipsum! Explicabo qui maxime rerum molestiae vero ipsa corporis similique vel. A esse obcaecati impedit magnam fugit ex, beatae vitae illum, repellat, sed expedita deserunt! Sit, minima praesentium facere, quod explicabo ducimus odio beatae saepe illo, commodi eligendi? Alias, sint. Dolore exercitationem, eos ratione veniam ullam aspernatur vitae voluptatum ad esse rem nemo officiis. Libero cupiditate est quis quam molestias, earum animi maiores! Distinctio possimus nobis quos?
+
+</p>
+
+
+<h2>Rate of growth</h2>
+<br> <div class="container"><p style="float: left;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis sit incidunt optio perferendis nihil velit explicabo vitae dolore, aliquam animi repellendus dignissimos dolorum quibusdam aspernatur quod, itaque repudiandae obcaecati. Sunt cum perspiciatis aliquid facere incidunt quaerat velit cumque error enim fugit eos explicabo reprehenderit praesentium, necessitatibus ad rem sint odit accusantium voluptas rerum labore. Quia accusantium nemo necessitatibus minima ipsa tempora doloribus, aspernatur iste non sit voluptas ducimus a, dolorum animi reiciendis natus. Eaque sint officia sed maxime, consectetur voluptatum. Veritatis consequatur magnam recusandae natus in saepe dicta illum porro hic nostrum facere fugiat dolorum et quos, deserunt, enim tempore?</p>
+<img src="plot.jpg" alt="" class="my-4 w-100 chartjs-render-monitor" id="myChart"  style=" height: 600px;  border:2px solid rgb(30, 29, 52);"> </div>
+
+</div>
+
+   
+    
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+    
+
+<!-- footer -->
+<div class="  mx-2 bg-light">
+    
+    <footer class="py-5">
+      <div class="row">
+        
+  
+        <div class="col-6 col-md-2 mb-3 ">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-md-5 offset-md-1 mb-3">
+          <form>
+            <h5>Subscribe to our newsletter</h5>
+            <p>Monthly digest of what's new and exciting from us.</p>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden">Email address</label>
+              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+              <button class="btn btn-primary" type="button">Subscribe</button>
+            </div>
+          </form>
+        </div>
+      </div>
+  
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+        <p>© 2022 Company, Inc. All rights reserved.</p>
+       
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3"><a class="link-dark" href="#"><img src="twitter.jpg" alt="" class="bi" width="25" height="25"></a></li>
+          <li class="ms-3"><a class="link-dark" href="#"><img src="instagram.jpg" alt="" class="bi" width="25" height="25"></a></li>
+          <li class="ms-3"><a class="link-dark" href="#"><img src="facebook.png" alt="" class="bi" width="25" height="25"></a></li>
+        </ul>
+      </div>
+    </footer>
+</div>
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
